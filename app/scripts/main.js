@@ -3,8 +3,6 @@
 		$('body').animate({ scrollTop: $('#about').offset().top }, 'slow');
 	});
 
-	var path = window.location.pathname;
-
 	$(window).scroll(function() {
 		var nav = $('#navbar');
 		if ($(window).scrollTop() > $('#hero').height() - nav.height() ) {
